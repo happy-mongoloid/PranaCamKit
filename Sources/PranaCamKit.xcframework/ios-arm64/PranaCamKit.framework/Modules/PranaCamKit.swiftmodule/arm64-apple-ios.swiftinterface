@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PranaCamKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import MetalKit
+@_exported import PranaCamKit
+import SceneKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CMPreset {
+  case vga, hd, square
+  public static func == (a: PranaCamKit.CMPreset, b: PranaCamKit.CMPreset) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol PCameraDelegate : AnyObject {
+  func updatePixelBuffer(camera: CoreVideo.CVPixelBuffer, timestamp: CoreMedia.CMTime, frontCamera: Swift.Bool)
+  func capturePhoto(photo: CoreVideo.CVPixelBuffer, metadata: CoreFoundation.CFDictionary)
+}
+extension PranaCamKit.CMPreset : Swift.Equatable {}
+extension PranaCamKit.CMPreset : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module PranaCamKit {
+  umbrella header "PranaCamKit.h"
+  export *
+
+  module * { export * }
+}
+
+module PranaCamKit.Swift {
+  header "PranaCamKit-Swift.h"
+  requires objc
+}
