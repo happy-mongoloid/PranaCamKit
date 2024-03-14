@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sFxBKR+v7A0hRShlSCdPMN4MciA=
+		boUFLfr9ASvu9BTUe/BuvX5VBHs=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EryG+Jv8o7wtDA7mDS8Z6NWnku4=
+		o///SfHk+1NOVpUm8gpl4CyQV5o=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EryG+Jv8o7wtDA7mDS8Z6NWnku4=
+		o///SfHk+1NOVpUm8gpl4CyQV5o=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cpGsNiSCh+1jfT9LLnJ9siokR0Y=
+		i3Zhg6Hy4viLp2z93eEQcryUzCU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KPcCQZPQaElmUUtD85AGpD8QDWYbYp4Pm9XD2OrkLJg=
+			fUHV8DzTXDxMcmKz05Hxbt9m2qlPRYSpic/RHslMVzM=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yB0P8FYzNVklHf2zkzmKJ8YodWXVcRut6/5heOkLm+E=
+			GAQyNCzNEApEAqdtzkK+z+34hWH0jDYdrI+KiDwYxG4=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yB0P8FYzNVklHf2zkzmKJ8YodWXVcRut6/5heOkLm+E=
+			GAQyNCzNEApEAqdtzkK+z+34hWH0jDYdrI+KiDwYxG4=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8c14W2gK9S4HstWVzBbGjRu8G7AABzNjYACBXu3ed8=
+			+SI/0SLuhpYgOy7zmKm4E4DrfJjsRHlL0MrgNOR3i7A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
