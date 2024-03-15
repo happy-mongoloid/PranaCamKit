@@ -1724,6 +1724,134 @@
           },
           {
             "kind": "Function",
+            "name": "setupMovieOutput",
+            "printedName": "setupMovieOutput()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC16setupMovieOutputyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC16setupMovieOutputyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAudioInput",
+            "printedName": "addAudioInput()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC13addAudioInputyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC13addAudioInputyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRecording",
+            "printedName": "startRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC14startRecordingyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC14startRecordingyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRecording",
+            "printedName": "stopRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC13stopRecordingyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC13stopRecordingyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC12startSessionyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC12startSessionyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rotateCam",
+            "printedName": "rotateCam()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC06rotateB0yyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC06rotateB0yyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "switchLight",
             "printedName": "switchLight()",
             "children": [
@@ -1762,6 +1890,87 @@
               "Final",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFrontCamera",
+            "printedName": "getFrontCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureDevice?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureDevice",
+                    "printedName": "AVFoundation.AVCaptureDevice",
+                    "usr": "c:objc(cs)AVCaptureDevice"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC14getFrontCameraSo15AVCaptureDeviceCSgyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC14getFrontCameraSo15AVCaptureDeviceCSgyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBackCamera",
+            "printedName": "getBackCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureDevice?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureDevice",
+                    "printedName": "AVFoundation.AVCaptureDevice",
+                    "usr": "c:objc(cs)AVCaptureDevice"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC13getBackCameraSo15AVCaptureDeviceCSgyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC13getBackCameraSo15AVCaptureDeviceCSgyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeCamera",
+            "printedName": "changeCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC12changeCamerayyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC12changeCamerayyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1816,6 +2025,34 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toggleTorch",
+            "printedName": "toggleTorch(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC11toggleTorch2onySb_tF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC11toggleTorch2onySb_tF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2286,217 +2523,217 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5325,
       "length": 35,
       "value": "\"Error: No audio devices available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5541,
+      "offset": 5558,
       "length": 52,
       "value": "\"Error: Unable to initialize input device: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5592,
+      "offset": 5609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5772,
+      "offset": 5789,
       "length": 60,
       "value": "\"Error: Unable to add audio input device to capture session\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 6072,
+      "offset": 6098,
       "length": 5,
       "value": "\"mov\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6620,
+      "offset": 6672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6648,
+      "offset": 6700,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 7380,
+      "offset": 7441,
       "length": 18,
       "value": "\"no Camera Device\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 7786,
+      "offset": 7856,
       "length": 36,
       "value": "\"Ultra wide camera is not available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7862,
+      "offset": 7932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 8065,
+      "offset": 8135,
       "length": 32,
       "value": "\"Ultra wide camera is available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8137,
+      "offset": 8207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8767,
+      "offset": 8846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9274,
+      "offset": 9353,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9380,
+      "offset": 9459,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9471,
+      "offset": 9550,
       "length": 24,
       "value": "\"No camera device found\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9828,
+      "offset": 9907,
       "length": 62,
       "value": "\"Unable to set videoZoomFactor: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9889,
+      "offset": 9968,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10007,
+      "offset": 10086,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11789,
+      "offset": 11878,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 12092,
+      "offset": 12181,
       "length": 25,
       "value": "\"Torch could not be used\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 12180,
+      "offset": 12269,
       "length": 24,
       "value": "\"Torch is not available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12646,
+      "offset": 12735,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12716,
+      "offset": 12805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13173,
+      "offset": 13262,
       "length": 77,
       "value": "\"!!Error!! Capturing Photo Missing pixel buffer \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13249,
+      "offset": 13338,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13708,
+      "offset": 13797,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13738,
+      "offset": 13827,
       "length": 47,
       "value": "\"isRecording: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13784,
+      "offset": 13873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13809,
+      "offset": 13898,
       "length": 57,
       "value": "\"Recorded Time: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13865,
+      "offset": 13954,
       "length": 2,
       "value": "\"\""
     },

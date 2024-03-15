@@ -40,10 +40,20 @@ public protocol PCameraDelegate : AnyObject {
   final public var usingFrontCamera: Swift.Bool
   public init(_ avPreset: AVFoundation.AVCaptureSession.Preset)
   final public func startCamera(_ comp: @escaping (Swift.Bool) -> Swift.Void)
+  final public func setupMovieOutput()
+  final public func addAudioInput()
+  final public func startRecording()
+  final public func stopRecording()
+  final public func startSession()
+  final public func rotateCam()
   final public func switchLight()
   final public func stopCaptureSession()
+  final public func getFrontCamera() -> AVFoundation.AVCaptureDevice?
+  final public func getBackCamera() -> AVFoundation.AVCaptureDevice?
+  final public func changeCamera()
   final public func setVideoZoomFactor(zoomFactor: CoreFoundation.CGFloat)
   final public func setPreset(cmPreset: AVFoundation.AVCaptureSession.Preset)
+  final public func toggleTorch(on: Swift.Bool)
   final public func capturePhoto(photoSettings: AVFoundation.AVCapturePhotoSettings = AVCapturePhotoSettings())
   @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
   @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
