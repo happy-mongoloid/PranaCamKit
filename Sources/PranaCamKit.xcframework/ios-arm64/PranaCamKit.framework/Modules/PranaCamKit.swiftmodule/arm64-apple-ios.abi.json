@@ -387,6 +387,1650 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PVCaptureManager",
+        "printedName": "PVCaptureManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "formatDescription",
+            "printedName": "formatDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMFormatDescription?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMFormatDescription",
+                    "printedName": "CoreMedia.CMFormatDescription",
+                    "usr": "c:@T@CMFormatDescriptionRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMFormatDescription?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMFormatDescription",
+                        "printedName": "CoreMedia.CMFormatDescription",
+                        "usr": "c:@T@CMFormatDescriptionRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMFormatDescription?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMFormatDescription",
+                        "printedName": "CoreMedia.CMFormatDescription",
+                        "usr": "c:@T@CMFormatDescriptionRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC17formatDescriptionSo08CMFormatG3RefaSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "captureSession",
+            "printedName": "captureSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureSession?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureSession",
+                    "printedName": "AVFoundation.AVCaptureSession",
+                    "usr": "c:objc(cs)AVCaptureSession"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureSession?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureSession",
+                        "printedName": "AVFoundation.AVCaptureSession",
+                        "usr": "c:objc(cs)AVCaptureSession"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureSession?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureSession",
+                        "printedName": "AVFoundation.AVCaptureSession",
+                        "usr": "c:objc(cs)AVCaptureSession"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC14captureSessionSo09AVCaptureG0CSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewLayer",
+            "printedName": "previewLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoPreviewLayer",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                    "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ultraWideCamIsAvailable",
+            "printedName": "ultraWideCamIsAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB11IsAvailableSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ultraWideCamEnebled",
+            "printedName": "ultraWideCamEnebled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC09ultraWideB7EnebledSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bufferSize",
+            "printedName": "bufferSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreFoundation.CGSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC10bufferSizeSo6CGSizeVSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recordedDuration",
+            "printedName": "recordedDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16recordedDurationSo6CMTimeavM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelBufferEnebled",
+            "printedName": "pixelBufferEnebled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC18pixelBufferEnebledSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orientation",
+            "printedName": "orientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIDeviceOrientation",
+                "printedName": "UIKit.UIDeviceOrientation",
+                "usr": "c:@E@UIDeviceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC11orientationSo19UIDeviceOrientationVvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC5lightSbvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC5lightSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC5lightSbvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC5lightSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC5lightSbvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC5lightSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC5lightSbvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC5lightSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usingFrontCamera",
+            "printedName": "usingFrontCamera",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvp",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvg",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvs",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvM",
+                "mangledName": "$s11PranaCamKit16PVCaptureManagerC16usingFrontCameraSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PVCaptureManager",
+                "printedName": "PranaCamKit.PVCaptureManager",
+                "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Preset",
+                "printedName": "AVFoundation.AVCaptureSession.Preset",
+                "usr": "c:@T@AVCaptureSessionPreset"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11PranaCamKit16PVCaptureManagerCyACSo22AVCaptureSessionPresetacfc",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerCyACSo22AVCaptureSessionPresetacfc",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startCamera",
+            "printedName": "startCamera(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC11startCamerayyySbcF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC11startCamerayyySbcF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "switchLight",
+            "printedName": "switchLight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC11switchLightyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC11switchLightyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCaptureSession",
+            "printedName": "stopCaptureSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC18stopCaptureSessionyyF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC18stopCaptureSessionyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVideoZoomFactor",
+            "printedName": "setVideoZoomFactor(zoomFactor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC18setVideoZoomFactor04zoomI0y14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC18setVideoZoomFactor04zoomI0y12CoreGraphics7CGFloatV_tF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPreset",
+            "printedName": "setPreset(cmPreset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Preset",
+                "printedName": "AVFoundation.AVCaptureSession.Preset",
+                "usr": "c:@T@AVCaptureSessionPreset"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC9setPreset02cmG0ySo016AVCaptureSessionG0a_tF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC9setPreset02cmG0ySo016AVCaptureSessionG0a_tF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "capturePhoto",
+            "printedName": "capturePhoto(photoSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhotoSettings",
+                "printedName": "AVFoundation.AVCapturePhotoSettings",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)AVCapturePhotoSettings"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit16PVCaptureManagerC12capturePhoto13photoSettingsySo09AVCapturegI0C_tF",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC12capturePhoto13photoSettingsySo09AVCapturegI0C_tF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "photoOutput",
+            "printedName": "photoOutput(_:didFinishProcessingPhoto:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhotoOutput",
+                "printedName": "AVFoundation.AVCapturePhotoOutput",
+                "usr": "c:objc(cs)AVCapturePhotoOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhoto",
+                "printedName": "AVFoundation.AVCapturePhoto",
+                "usr": "c:objc(cs)AVCapturePhoto"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager(im)captureOutput:didFinishProcessingPhoto:error:",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC11photoOutput_24didFinishProcessingPhoto5errorySo09AVCapturekG0C_So0mK0Cs5Error_pSgtF",
+            "moduleName": "PranaCamKit",
+            "objc_name": "captureOutput:didFinishProcessingPhoto:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC13captureOutput_03didG04fromySo09AVCaptureG0C_So17CMSampleBufferRefaSo0J10ConnectionCtF",
+            "moduleName": "PranaCamKit",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PVCaptureManager",
+                "printedName": "PranaCamKit.PVCaptureManager",
+                "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager(im)init",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerCACycfc",
+            "moduleName": "PranaCamKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fileOutput",
+            "printedName": "fileOutput(_:didStartRecordingTo:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureFileOutput",
+                "printedName": "AVFoundation.AVCaptureFileOutput",
+                "usr": "c:objc(cs)AVCaptureFileOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVCaptureConnection]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureConnection",
+                    "printedName": "AVFoundation.AVCaptureConnection",
+                    "usr": "c:objc(cs)AVCaptureConnection"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PranaCamKit@objc(cs)PVCaptureManager(im)captureOutput:didStartRecordingToOutputFileAtURL:fromConnections:",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC10fileOutput_19didStartRecordingTo4fromySo013AVCaptureFileG0C_10Foundation3URLVSaySo0M10ConnectionCGtF",
+            "moduleName": "PranaCamKit",
+            "objc_name": "captureOutput:didStartRecordingToOutputFileAtURL:fromConnections:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileOutput",
+            "printedName": "fileOutput(_:didFinishRecordingTo:from:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureFileOutput",
+                "printedName": "AVFoundation.AVCaptureFileOutput",
+                "usr": "c:objc(cs)AVCaptureFileOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVCaptureConnection]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureConnection",
+                    "printedName": "AVFoundation.AVCaptureConnection",
+                    "usr": "c:objc(cs)AVCaptureConnection"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PranaCamKit@objc(cs)PVCaptureManager(im)captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:",
+            "mangledName": "$s11PranaCamKit16PVCaptureManagerC10fileOutput_20didFinishRecordingTo4from5errorySo013AVCaptureFileG0C_10Foundation3URLVSaySo0N10ConnectionCGs5Error_pSgtF",
+            "moduleName": "PranaCamKit",
+            "objc_name": "captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PranaCamKit@objc(cs)PVCaptureManager",
+        "mangledName": "$s11PranaCamKit16PVCaptureManagerC",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
@@ -417,336 +2061,336 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 767,
       "length": 26,
       "value": "\"com.scn.VideoBufferQueue\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1093,
+      "offset": 1100,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1136,
+      "offset": 1143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1259,
+      "offset": 1266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1518,
+      "offset": 1525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1553,
+      "offset": 1560,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1591,
+      "offset": 1598,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2175,
+      "offset": 2182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2317,
+      "offset": 2324,
       "length": 3,
       "value": "114"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2597,
+      "offset": 2604,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2673,
+      "offset": 2680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3030,
+      "offset": 3037,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3151,
       "length": 17,
       "value": "\"no Camera Input\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3833,
+      "offset": 3840,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 4484,
+      "offset": 4491,
       "length": 7,
       "value": "\"Width\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 4545,
+      "offset": 4552,
       "length": 8,
       "value": "\"Height\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5294,
+      "offset": 5301,
       "length": 35,
       "value": "\"Error: No audio devices available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
+      "offset": 5534,
       "length": 52,
       "value": "\"Error: Unable to initialize input device: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5578,
+      "offset": 5585,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 5758,
+      "offset": 5765,
       "length": 60,
       "value": "\"Error: Unable to add audio input device to capture session\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 6058,
+      "offset": 6065,
       "length": 5,
       "value": "\"mov\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6606,
+      "offset": 6613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6634,
+      "offset": 6641,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 7366,
+      "offset": 7373,
       "length": 18,
       "value": "\"no Camera Device\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 7772,
+      "offset": 7779,
       "length": 36,
       "value": "\"Ultra wide camera is not available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7848,
+      "offset": 7855,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 8051,
+      "offset": 8058,
       "length": 32,
       "value": "\"Ultra wide camera is available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8123,
+      "offset": 8130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8753,
+      "offset": 8760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9260,
+      "offset": 9267,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9366,
+      "offset": 9373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9457,
+      "offset": 9464,
       "length": 24,
       "value": "\"No camera device found\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9814,
+      "offset": 9821,
       "length": 62,
       "value": "\"Unable to set videoZoomFactor: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 9875,
+      "offset": 9882,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9993,
+      "offset": 10000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11775,
+      "offset": 11782,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 12078,
+      "offset": 12085,
       "length": 25,
       "value": "\"Torch could not be used\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 12166,
+      "offset": 12173,
       "length": 24,
       "value": "\"Torch is not available\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12632,
+      "offset": 12639,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12702,
+      "offset": 12709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13152,
+      "offset": 13166,
       "length": 77,
       "value": "\"!!Error!! Capturing Photo Missing pixel buffer \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13228,
+      "offset": 13242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13682,
+      "offset": 13701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13712,
+      "offset": 13731,
       "length": 47,
       "value": "\"isRecording: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13758,
+      "offset": 13777,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13783,
+      "offset": 13802,
       "length": 57,
       "value": "\"Recorded Time: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13839,
+      "offset": 13858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 566,
       "length": 16,
       "value": "\"PranaCamKit.PVCaptureManager\""
     }

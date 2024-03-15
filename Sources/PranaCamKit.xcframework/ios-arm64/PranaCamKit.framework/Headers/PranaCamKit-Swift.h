@@ -277,6 +277,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreMedia;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -297,6 +301,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class AVCapturePhotoOutput;
+@class AVCapturePhoto;
+@class AVCaptureOutput;
+@class AVCaptureConnection;
+
+SWIFT_CLASS("_TtC11PranaCamKit16PVCaptureManager")
+@interface PVCaptureManager : NSObject <AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
+- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error;
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class AVCaptureFileOutput;
+@class NSURL;
+
+@interface PVCaptureManager (SWIFT_EXTENSION(PranaCamKit)) <AVCaptureFileOutputRecordingDelegate>
+- (void)captureOutput:(AVCaptureFileOutput * _Nonnull)output didStartRecordingToOutputFileAtURL:(NSURL * _Nonnull)fileURL fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)connections;
+- (void)captureOutput:(AVCaptureFileOutput * _Nonnull)output didFinishRecordingToOutputFileAtURL:(NSURL * _Nonnull)outputFileURL fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)connections error:(NSError * _Nullable)error;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

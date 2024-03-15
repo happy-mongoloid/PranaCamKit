@@ -25,5 +25,32 @@ public protocol PCameraDelegate : AnyObject {
   func capturePhoto(photo: CoreVideo.CVPixelBuffer, metadata: CoreFoundation.CFDictionary)
   func exportVideo(path: Swift.String)
 }
+@objc final public class PVCaptureManager : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  final public var formatDescription: CoreMedia.CMFormatDescription?
+  final public var captureSession: AVFoundation.AVCaptureSession?
+  final public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
+  final public var ultraWideCamIsAvailable: Swift.Bool
+  final public var ultraWideCamEnebled: Swift.Bool
+  final public var bufferSize: CoreFoundation.CGSize!
+  final public var recordedDuration: CoreMedia.CMTime
+  final public var pixelBufferEnebled: Swift.Bool
+  final public var orientation: UIKit.UIDeviceOrientation
+  final public var light: Swift.Bool
+  final public var usingFrontCamera: Swift.Bool
+  public init(_ avPreset: AVFoundation.AVCaptureSession.Preset)
+  final public func startCamera(_ comp: @escaping (Swift.Bool) -> Swift.Void)
+  final public func switchLight()
+  final public func stopCaptureSession()
+  final public func setVideoZoomFactor(zoomFactor: CoreFoundation.CGFloat)
+  final public func setPreset(cmPreset: AVFoundation.AVCaptureSession.Preset)
+  final public func capturePhoto(photoSettings: AVFoundation.AVCapturePhotoSettings = AVCapturePhotoSettings())
+  @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
+  @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc deinit
+}
+extension PranaCamKit.PVCaptureManager : AVFoundation.AVCaptureFileOutputRecordingDelegate {
+  @objc final public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didStartRecordingTo fileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection])
+  @objc final public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo outputFileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection], error: (any Swift.Error)?)
+}
 extension PranaCamKit.CMPreset : Swift.Equatable {}
 extension PranaCamKit.CMPreset : Swift.Hashable {}
