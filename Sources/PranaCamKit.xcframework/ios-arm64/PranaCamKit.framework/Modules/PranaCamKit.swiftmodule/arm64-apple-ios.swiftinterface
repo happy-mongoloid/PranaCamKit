@@ -26,6 +26,7 @@ public protocol PCameraDelegate : AnyObject {
   func exportVideo(path: Swift.String)
 }
 @objc final public class PVCaptureManager : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  weak final public var delegate: (any PranaCamKit.PCameraDelegate)?
   final public var formatDescription: CoreMedia.CMFormatDescription?
   final public var captureSession: AVFoundation.AVCaptureSession?
   final public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
