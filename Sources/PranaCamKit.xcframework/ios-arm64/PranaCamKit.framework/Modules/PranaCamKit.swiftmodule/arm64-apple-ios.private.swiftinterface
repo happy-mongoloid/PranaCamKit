@@ -4,6 +4,8 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import MetalKit
+import Photos
+import PhotosUI
 @_exported import PranaCamKit
 import SceneKit
 import Swift
@@ -19,36 +21,9 @@ public enum CMPreset {
   }
 }
 public protocol PCameraDelegate : AnyObject {
-  func updatePixelBuffer(camera: CoreVideo.CVPixelBuffer, timestamp: CoreMedia.CMTime, frontCamera: Swift.Bool)
+  func updatePixelBuffer(camera: CoreVideo.CVPixelBuffer, timestamp: CoreMedia.CMTime, recordedTime: CoreMedia.CMTime, frontCamera: Swift.Bool)
   func capturePhoto(photo: CoreVideo.CVPixelBuffer, metadata: CoreFoundation.CFDictionary)
-}
-@objc @_inheritsConvenienceInitializers final public class PVCaptureManager : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
-  weak final public var delegate: (any PranaCamKit.PCameraDelegate)?
-  final public var formatDescription: CoreMedia.CMFormatDescription?
-  final public var captureSession: AVFoundation.AVCaptureSession?
-  final public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
-  final public var ultraWideCamIsAvailable: Swift.Bool
-  final public var ultraWideCamEnebled: Swift.Bool
-  final public var bufferSize: CoreFoundation.CGSize!
-  final public var pixelBufferEnebled: Swift.Bool
-  final public var light: Swift.Bool
-  final public var usingFrontCamera: Swift.Bool
-  @objc override dynamic public init()
-  final public func startCamera(_ comp: @escaping (Swift.Bool) -> Swift.Void)
-  final public func startSession()
-  final public func rotateCam()
-  final public func switchLight()
-  final public func stopCaptureSession()
-  final public func getFrontCamera() -> AVFoundation.AVCaptureDevice?
-  final public func getBackCamera() -> AVFoundation.AVCaptureDevice?
-  final public func changeCamera()
-  final public func setVideoZoomFactor(zoomFactor: CoreFoundation.CGFloat)
-  final public func setPreset(cmPreset: AVFoundation.AVCaptureSession.Preset)
-  final public func toggleTorch(on: Swift.Bool)
-  final public func capturePhoto(photoSettings: AVFoundation.AVCapturePhotoSettings = AVCapturePhotoSettings())
-  @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
-  @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  @objc deinit
+  func exportVideo(path: Swift.String)
 }
 extension PranaCamKit.CMPreset : Swift.Equatable {}
 extension PranaCamKit.CMPreset : Swift.Hashable {}

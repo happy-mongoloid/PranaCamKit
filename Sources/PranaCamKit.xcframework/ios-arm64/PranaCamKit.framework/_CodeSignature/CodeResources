@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PranaCamKit-Swift.h</key>
 		<data>
-		MlsqVKB0o68uQFOlHlqRARaQWt8=
+		NGEaCNAjXLLbkD2onBXK8y6lnZk=
 		</data>
 		<key>Headers/PranaCamKit.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		boUFLfr9ASvu9BTUe/BuvX5VBHs=
+		auq1O1yZZYR10L5cigDbZffgF8o=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		o///SfHk+1NOVpUm8gpl4CyQV5o=
+		XNJ8kJpP+Ni5qYPHVYEz7gP8tz4=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		o///SfHk+1NOVpUm8gpl4CyQV5o=
+		XNJ8kJpP+Ni5qYPHVYEz7gP8tz4=
 		</data>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		i3Zhg6Hy4viLp2z93eEQcryUzCU=
+		D6dFvWTeHaPiXBKMAtH8PjnIfYY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			66TN9dNm9YHebypCAmrQ66O+XtgnfR2tPJ2KN9Hw0BY=
+			RGcRf1eBM1ygeTf6FNjcEpfZYKOVmU5VKT4Lm0gLjFY=
 			</data>
 		</dict>
 		<key>Headers/PranaCamKit.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUHV8DzTXDxMcmKz05Hxbt9m2qlPRYSpic/RHslMVzM=
+			6bx6hul0X6PtZ/sqxIBNgc6pU0Cye88Tb4lVyW8sKGw=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAQyNCzNEApEAqdtzkK+z+34hWH0jDYdrI+KiDwYxG4=
+			h4Ypytxip1MJFR8pF9nm0/ZWd9QXjmcpjLB94feCI5k=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAQyNCzNEApEAqdtzkK+z+34hWH0jDYdrI+KiDwYxG4=
+			h4Ypytxip1MJFR8pF9nm0/ZWd9QXjmcpjLB94feCI5k=
 			</data>
 		</dict>
 		<key>Modules/PranaCamKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+SI/0SLuhpYgOy7zmKm4E4DrfJjsRHlL0MrgNOR3i7A=
+			8MQyChFEFAn5FF9NVfqJoz0syYdfYvhs76kPiWIvuyA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
