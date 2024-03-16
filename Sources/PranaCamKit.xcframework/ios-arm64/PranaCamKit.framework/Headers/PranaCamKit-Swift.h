@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFAudio;
 @import AVFoundation;
 @import CoreMedia;
 @import Foundation;
@@ -301,6 +302,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC11PranaCamKit11AudioWriter")
+@interface AudioWriter : NSObject <AVAudioRecorderDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class AVCapturePhotoOutput;
 @class AVCapturePhoto;
 @class AVCaptureOutput;

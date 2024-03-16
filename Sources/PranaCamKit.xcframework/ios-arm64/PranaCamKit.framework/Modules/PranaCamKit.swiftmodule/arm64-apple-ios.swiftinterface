@@ -12,6 +12,53 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public class ViTRecorder {
+  public var mtlRecorder: PranaCamKit.MetalVideoRecorder!
+  public var audioRecorder: PranaCamKit.AudioWriter!
+  public var url: Foundation.URL
+  public var recording: Swift.Bool {
+    get
+  }
+  public init(drawableSize: CoreFoundation.CGSize)
+  public func reset()
+  public func flush(mtlTexture: any Metal.MTLTexture, recTime: CoreMedia.CMTime)
+  public func startRec()
+  public func finishRec() -> Swift.Bool
+  public enum PhStatus {
+    case accessed, denied
+    public static func == (a: PranaCamKit.ViTRecorder.PhStatus, b: PranaCamKit.ViTRecorder.PhStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func saveVideoToCameraRoll(_ comp: @escaping () -> ())
+  @objc deinit
+}
+extension Foundation.URL {
+  public func removeIfExist()
+}
+public class MetalVideoRecorder {
+  public var writerer: AVFoundation.AVAssetWriter!
+  public var isWriting: Swift.Bool
+  public var started: Swift.Bool
+  public init(size: CoreFoundation.CGSize, url: Foundation.URL)
+  @objc deinit
+  public func setupVideoWriter()
+  public func start(_ time: CoreMedia.CMTime)
+  public func end(_ time: CoreMedia.CMTime)
+  public func flushTexture(mtlTexture: (any Metal.MTLTexture)?, recTime: CoreMedia.CMTime, failureComp: @escaping () -> ())
+  public func finishRec(comp: @escaping () -> ())
+}
+@objc @_inheritsConvenienceInitializers public class AudioWriter : ObjectiveC.NSObject, AVFAudio.AVAudioRecorderDelegate {
+  public func setup_recorder()
+  public func startRec()
+  public func pause()
+  public func resume()
+  public func stopRec()
+  @objc override dynamic public init()
+  @objc deinit
+}
 public enum CMPreset {
   case vga, hd, square
   public static func == (a: PranaCamKit.CMPreset, b: PranaCamKit.CMPreset) -> Swift.Bool
@@ -63,5 +110,7 @@ extension PranaCamKit.PVCaptureManager : AVFoundation.AVCaptureFileOutputRecordi
   @objc final public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didStartRecordingTo fileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection])
   @objc final public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo outputFileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection], error: (any Swift.Error)?)
 }
+extension PranaCamKit.ViTRecorder.PhStatus : Swift.Equatable {}
+extension PranaCamKit.ViTRecorder.PhStatus : Swift.Hashable {}
 extension PranaCamKit.CMPreset : Swift.Equatable {}
 extension PranaCamKit.CMPreset : Swift.Hashable {}

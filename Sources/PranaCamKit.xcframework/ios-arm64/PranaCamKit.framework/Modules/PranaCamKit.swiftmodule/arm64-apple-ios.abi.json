@@ -6,6 +6,1460 @@
     "children": [
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "PranaCamKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "PranaCamKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViTRecorder",
+        "printedName": "ViTRecorder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mtlRecorder",
+            "printedName": "mtlRecorder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "PranaCamKit.MetalVideoRecorder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MetalVideoRecorder",
+                    "printedName": "PranaCamKit.MetalVideoRecorder",
+                    "usr": "s:11PranaCamKit18MetalVideoRecorderC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvp",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "PranaCamKit.MetalVideoRecorder?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MetalVideoRecorder",
+                        "printedName": "PranaCamKit.MetalVideoRecorder",
+                        "usr": "s:11PranaCamKit18MetalVideoRecorderC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvg",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "PranaCamKit.MetalVideoRecorder?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MetalVideoRecorder",
+                        "printedName": "PranaCamKit.MetalVideoRecorder",
+                        "usr": "s:11PranaCamKit18MetalVideoRecorderC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvs",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvM",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC11mtlRecorderAA010MetalVideoG0CSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioRecorder",
+            "printedName": "audioRecorder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "PranaCamKit.AudioWriter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AudioWriter",
+                    "printedName": "PranaCamKit.AudioWriter",
+                    "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvp",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "PranaCamKit.AudioWriter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AudioWriter",
+                        "printedName": "PranaCamKit.AudioWriter",
+                        "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvg",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "PranaCamKit.AudioWriter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AudioWriter",
+                        "printedName": "PranaCamKit.AudioWriter",
+                        "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvs",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvM",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC13audioRecorderAA11AudioWriterCSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit11ViTRecorderC3url10Foundation3URLVvp",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC3url10Foundation3URLVvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC3url10Foundation3URLVvg",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC3url10Foundation3URLVvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC3url10Foundation3URLVvs",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC3url10Foundation3URLVvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC3url10Foundation3URLVvM",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC3url10Foundation3URLVvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recording",
+            "printedName": "recording",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit11ViTRecorderC9recordingSbvp",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC9recordingSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit11ViTRecorderC9recordingSbvg",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC9recordingSbvg",
+                "moduleName": "PranaCamKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(drawableSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViTRecorder",
+                "printedName": "PranaCamKit.ViTRecorder",
+                "usr": "s:11PranaCamKit11ViTRecorderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11PranaCamKit11ViTRecorderC12drawableSizeACSo6CGSizeV_tcfc",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC12drawableSizeACSo6CGSizeV_tcfc",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11ViTRecorderC5resetyyF",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC5resetyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush(mtlTexture:recTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11ViTRecorderC5flush10mtlTexture7recTimeySo10MTLTexture_p_So6CMTimeatF",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC5flush10mtlTexture7recTimeySo10MTLTexture_p_So6CMTimeatF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRec",
+            "printedName": "startRec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11ViTRecorderC8startRecyyF",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC8startRecyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finishRec",
+            "printedName": "finishRec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11ViTRecorderC9finishRecSbyF",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC9finishRecSbyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PhStatus",
+            "printedName": "PhStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "accessed",
+                "printedName": "accessed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PranaCamKit.ViTRecorder.PhStatus.Type) -> PranaCamKit.ViTRecorder.PhStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhStatus",
+                        "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                        "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PranaCamKit.ViTRecorder.PhStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PhStatus",
+                            "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                            "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO8accessedyA2EmF",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO8accessedyA2EmF",
+                "moduleName": "PranaCamKit"
+              },
+              {
+                "kind": "Var",
+                "name": "denied",
+                "printedName": "denied",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PranaCamKit.ViTRecorder.PhStatus.Type) -> PranaCamKit.ViTRecorder.PhStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhStatus",
+                        "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                        "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PranaCamKit.ViTRecorder.PhStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PhStatus",
+                            "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                            "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO6deniedyA2EmF",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO6deniedyA2EmF",
+                "moduleName": "PranaCamKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhStatus",
+                    "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                    "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhStatus",
+                    "printedName": "PranaCamKit.ViTRecorder.PhStatus",
+                    "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO2eeoiySbAE_AEtFZ",
+                "moduleName": "PranaCamKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO9hashValueSivp",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO9hashValueSivp",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO9hashValueSivg",
+                    "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO9hashValueSivg",
+                    "moduleName": "PranaCamKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO4hash4intoys6HasherVz_tF",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11PranaCamKit11ViTRecorderC8PhStatusO",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC8PhStatusO",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "saveVideoToCameraRoll",
+            "printedName": "saveVideoToCameraRoll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11ViTRecorderC21saveVideoToCameraRollyyyycF",
+            "mangledName": "$s11PranaCamKit11ViTRecorderC21saveVideoToCameraRollyyyycF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11PranaCamKit11ViTRecorderC",
+        "mangledName": "$s11PranaCamKit11ViTRecorderC",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MetalVideoRecorder",
+        "printedName": "MetalVideoRecorder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "writerer",
+            "printedName": "writerer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AVFoundation.AVAssetWriter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAssetWriter",
+                    "printedName": "AVFoundation.AVAssetWriter",
+                    "usr": "c:objc(cs)AVAssetWriter"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvp",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVAssetWriter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAssetWriter",
+                        "printedName": "AVFoundation.AVAssetWriter",
+                        "usr": "c:objc(cs)AVAssetWriter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvg",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVAssetWriter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAssetWriter",
+                        "printedName": "AVFoundation.AVAssetWriter",
+                        "usr": "c:objc(cs)AVAssetWriter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvs",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvM",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC8writererSo13AVAssetWriterCSgvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWriting",
+            "printedName": "isWriting",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC9isWritingSbvp",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC9isWritingSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC9isWritingSbvg",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC9isWritingSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC9isWritingSbvs",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC9isWritingSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC9isWritingSbvM",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC9isWritingSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC7startedSbvp",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC7startedSbvp",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC7startedSbvg",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC7startedSbvg",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC7startedSbvs",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC7startedSbvs",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC7startedSbvM",
+                "mangledName": "$s11PranaCamKit18MetalVideoRecorderC7startedSbvM",
+                "moduleName": "PranaCamKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(size:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalVideoRecorder",
+                "printedName": "PranaCamKit.MetalVideoRecorder",
+                "usr": "s:11PranaCamKit18MetalVideoRecorderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC4size3urlACSo6CGSizeV_10Foundation3URLVtcfc",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC4size3urlACSo6CGSizeV_10Foundation3URLVtcfc",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupVideoWriter",
+            "printedName": "setupVideoWriter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC05setupE6WriteryyF",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC05setupE6WriteryyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC5startyySo6CMTimeaF",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC5startyySo6CMTimeaF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "end",
+            "printedName": "end(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC3endyySo6CMTimeaF",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC3endyySo6CMTimeaF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flushTexture",
+            "printedName": "flushTexture(mtlTexture:recTime:failureComp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC12flushTexture03mtlH07recTime11failureCompySo10MTLTexture_pSg_So6CMTimeayyctF",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC12flushTexture03mtlH07recTime11failureCompySo10MTLTexture_pSg_So6CMTimeayyctF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finishRec",
+            "printedName": "finishRec(comp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit18MetalVideoRecorderC9finishRec4compyyyc_tF",
+            "mangledName": "$s11PranaCamKit18MetalVideoRecorderC9finishRec4compyyyc_tF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11PranaCamKit18MetalVideoRecorderC",
+        "mangledName": "$s11PranaCamKit18MetalVideoRecorderC",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudioWriter",
+        "printedName": "AudioWriter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup_recorder",
+            "printedName": "setup_recorder()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11AudioWriterC14setup_recorderyyF",
+            "mangledName": "$s11PranaCamKit11AudioWriterC14setup_recorderyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRec",
+            "printedName": "startRec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11AudioWriterC8startRecyyF",
+            "mangledName": "$s11PranaCamKit11AudioWriterC8startRecyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11AudioWriterC5pauseyyF",
+            "mangledName": "$s11PranaCamKit11AudioWriterC5pauseyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11AudioWriterC6resumeyyF",
+            "mangledName": "$s11PranaCamKit11AudioWriterC6resumeyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRec",
+            "printedName": "stopRec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PranaCamKit11AudioWriterC7stopRecyyF",
+            "mangledName": "$s11PranaCamKit11AudioWriterC7stopRecyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AudioWriter",
+                "printedName": "PranaCamKit.AudioWriter",
+                "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter(im)init",
+            "mangledName": "$s11PranaCamKit11AudioWriterCACycfc",
+            "moduleName": "PranaCamKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PranaCamKit@objc(cs)AudioWriter",
+        "mangledName": "$s11PranaCamKit11AudioWriterC",
+        "moduleName": "PranaCamKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
         "declKind": "Import",
@@ -2403,11 +3857,499 @@
         "printedName": "PhotosUI",
         "declKind": "Import",
         "moduleName": "PranaCamKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URL",
+        "printedName": "URL",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "removeIfExist",
+            "printedName": "removeIfExist()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation3URLV11PranaCamKitE13removeIfExistyyF",
+            "mangledName": "$s10Foundation3URLV11PranaCamKitE13removeIfExistyyF",
+            "moduleName": "PranaCamKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation3URLV",
+        "mangledName": "$s10Foundation3URLV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "FloatLiteral",
+      "offset": 462,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 10,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 16,
+      "value": "\"file_video.mp4\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1986,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2046,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2482,
+      "length": 20,
+      "value": "\"Permission granted\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 19,
+      "value": "\"Permission denied\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2841,
+      "length": 27,
+      "value": "\"Permission not determined\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2961,
+      "length": 20,
+      "value": "\"Permission limited\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 3077,
+      "length": 14,
+      "value": "\"Unknown case\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 3765,
+      "length": 46,
+      "value": "\"An error occured deleting the file: \""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 3810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/ViTRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4143,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 32,
+      "value": "\"com.example.recordingClipQueue\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 475,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 506,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 782,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 15,
+      "value": "\"deinit WRITER\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1744,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2083,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2210,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2619,
+      "length": 21,
+      "value": "\"no way\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 2639,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2753,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2892,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "FloatLiteral",
+      "offset": 3248,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3328,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 4123,
+      "length": 31,
+      "value": "\" FAILED!!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 4153,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "Array",
+      "offset": 4941,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5160,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "Array",
+      "offset": 5363,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 5505,
+      "length": 60,
+      "value": "\"!!!!!!!!!!!!!RECORDING \""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 1,
+      "value": "\"!!!!!!!!!!!!!!!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 6382,
+      "length": 24,
+      "value": "\"Failed to write a file\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/MetalVideoRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 6539,
+      "length": 27,
+      "value": "\"Completed to write a file\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 297,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 16,
+      "value": "\"file_audio.m4a\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 892,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/AudioWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1224,
+      "length": 4,
+      "value": "true"
+    },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
@@ -2705,35 +4647,35 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13797,
+      "offset": 13852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13827,
+      "offset": 13882,
       "length": 47,
       "value": "\"isRecording: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13873,
+      "offset": 13928,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13898,
+      "offset": 13953,
       "length": 57,
       "value": "\"Recorded Time: \""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PranaCamKit\/PranaCamKit\/CaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 13954,
+      "offset": 14009,
       "length": 2,
       "value": "\"\""
     },
